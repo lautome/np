@@ -30,4 +30,4 @@ Test Keyword Filtering
         Get Style    ${element}    background-color    ==    rgb(255, 255, 0)
     END
     Length Should Be    ${style_elements}    2
-    Take Screenshot    fullPage=False
+    Take Screenshot    fullPage=False        
